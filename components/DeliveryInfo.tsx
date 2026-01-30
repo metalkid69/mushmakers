@@ -22,7 +22,7 @@ export function DeliveryInfo() {
                         </div>
                         <div>
                             <h3 className="font-bold text-lg text-stone-900">Coverage Area</h3>
-                            <p className="text-sm text-stone-600 mt-1">Currently serving all metro city areas.</p>
+                            <p className="text-sm text-stone-600 mt-1">Currently serving Patna</p>
                         </div>
                     </div>
 

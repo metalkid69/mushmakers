@@ -1,6 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
-import { Clock, ChefHat } from "lucide-react";
+import { ChefHat } from "lucide-react";
 import { Recipe } from "@/lib/recipes";
 
 export function RecipeCard({ recipe }: { recipe: Recipe }) {
@@ -26,13 +26,10 @@ export function RecipeCard({ recipe }: { recipe: Recipe }) {
                 </p>
 
                 <div className="flex items-center gap-4 text-xs text-stone-500 mb-4">
-                    <div className="flex items-center gap-1">
-                        <Clock className="w-4 h-4" />
-                        <span>20 mins</span>
-                    </div>
+
                     <div className="flex items-center gap-1">
                         <ChefHat className="w-4 h-4" />
-                        <span>5 Ingredients</span>
+                        <span>{recipe.ingredients.length} Ingredients</span>
                     </div>
                 </div>
 

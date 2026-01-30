@@ -1,6 +1,6 @@
 import { Container } from "@/components/Container";
 import Link from "next/link";
-import { Facebook, Instagram, Twitter } from "lucide-react";
+import { Instagram } from "lucide-react";
 
 export function Footer() {
     return (
@@ -27,15 +27,10 @@ export function Footer() {
                     </div>
 
                     <div className="flex gap-4">
-                        <Link href="#" className="p-2 bg-stone-800 rounded-full hover:bg-stone-700 hover:text-white transition-colors">
+                        <Link href="https://www.instagram.com/mush_makers?igsh=Y3huM2xyampsZHY4" target="_blank" rel="noopener noreferrer" className="p-2 bg-stone-800 rounded-full hover:bg-stone-700 hover:text-white transition-colors">
                             <Instagram className="w-5 h-5" />
                         </Link>
-                        <Link href="#" className="p-2 bg-stone-800 rounded-full hover:bg-stone-700 hover:text-white transition-colors">
-                            <Facebook className="w-5 h-5" />
-                        </Link>
-                        <Link href="#" className="p-2 bg-stone-800 rounded-full hover:bg-stone-700 hover:text-white transition-colors">
-                            <Twitter className="w-5 h-5" />
-                        </Link>
+
                     </div>
                 </div>
                 <div className="border-t border-stone-800 mt-8 pt-8 text-center text-xs">
