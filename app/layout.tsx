@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { Outfit } from "next/font/google";
 import "./globals.css";
 import { CartProvider } from "@/store/CartContext";
+import { Analytics } from "@vercel/analytics/next";
 
 const outfit = Outfit({
   subsets: ["latin"],
@@ -25,6 +26,7 @@ export default function RootLayout({
         <CartProvider>
           {children}
         </CartProvider>
+        <Analytics />
       </body>
     </html>
   );
