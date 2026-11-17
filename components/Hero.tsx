@@ -33,8 +33,8 @@ export function Hero() {
                         </span>
                         <h1 className="text-4xl sm:text-5xl md:text-7xl font-bold text-white sm:text-stone-900 leading-[1.1] mb-6 tracking-tight">
                             Farm-Fresh <br />
-                            <span className="text-primary-dark sm:text-primary">Button Mushrooms</span>
-                            <br /> Delivered.
+                            <span className="text-primary-dark sm:text-primary">Mushrooms</span>
+                            <br /> Delivered
                         </h1>
                         <p className="text-lg sm:text-xl text-stone-200 sm:text-stone-600 mb-8 leading-relaxed max-w-lg">
                             Organically grown, hand-picked, and delivered within 24 hours. Experience the earthy taste of true freshness.

@@ -1,6 +1,7 @@
 import { Navbar } from "@/components/Navbar";
 import { Hero } from "@/components/Hero";
 import { ProductSection } from "@/components/ProductSection";
+import { OysterProductSection } from "@/components/OysterProductSection";
 import { RecipesPreview } from "@/components/RecipesPreview";
 import { Features } from "@/components/Features";
 import { FarmingProcess } from "@/components/FarmingProcess";
@@ -14,6 +15,7 @@ export default function Home() {
       <Hero />
       <Features />
       <ProductSection />
+      <OysterProductSection />
       <RecipesPreview />
       <FarmingProcess />
       <DeliveryInfo />
